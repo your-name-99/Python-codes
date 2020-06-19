@@ -1,0 +1,23 @@
+prime=0
+composite=0
+k=1
+flag=0
+while(k):
+    n=int(input())
+    if(n==-1):
+        print("PRIME:",prime)
+        print("COMPOSITE:",composite)
+        k=0
+    else:
+        z=(n/2)
+        z=int(z)
+        for j in range(2,z+1):
+            if((n%j)==0):
+                flag=1
+                j=z+3
+                break
+        if(flag==0):
+            prime=prime+1
+        else:
+            composite=composite+1
+        flag=0

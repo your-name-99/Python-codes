@@ -1,0 +1,12 @@
+a,b=input().split()
+c,d=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+x=complex(a,b)
+y=complex(c,d)
+z=x+y
+print(x)
+print(y)
+print(z)

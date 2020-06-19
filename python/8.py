@@ -1,0 +1,6 @@
+s=input()
+a=list(map(int,input().split()))
+b=tuple(map(int,input().split()))
+print(s[0],s[-1])
+print(a[0],a[-1])
+print(b[0],b[-1])
